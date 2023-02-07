@@ -12,11 +12,16 @@ public class Taschenrechner {
 
     
 public static void main(String[] args) {
-		double ergebnis;
+		double summe;
+                double division;
 		double zahl1 = 4;
                 double zahl2 =3;
 
-		ergebnis=zahl1+zahl2;
-		System.out.println("Das Ergebnis ist: " + ergebnis);
+		summe=zahl1+zahl2;
+		System.out.println("Das Ergebnis ist: " + summe);
+                
+                division = zahl1/zahl2;
+                System.out.println("Das Ergebnis ist: " + division);
+                
 	}
 }
